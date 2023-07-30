@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            padding: 0%;
+            margin:0;
+        }
+        body{
+            min-width: 100vh;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background: black;    
+        }
+        .full{
+            height: 600px;
+            width: 600px;
+             display: flex;
+             background: grey;
+             border: 2px solid palevioletred;
+             color: aliceblue;
+             border-radius: 10px;
+        }
+        .left{
+            width: 40%;
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+        }
+        .right{
+            width: 60%;
+            background-color: aqua;
+            display: flex;
+           overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="left">
+        <label id="name">
+        </label>
+        <label id="roll">
+        </label>
+        <label id="phone">
+        </label>
+        <button onclick="app()" id="on">submit</button>
+    </div>
+    <div class="right">
+     <img src="" id="img">
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
