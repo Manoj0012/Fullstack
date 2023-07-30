@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+         body{
+            height: 100vh;
+            background-color: #81868f;
+            text-align: center;
+            display:flex ;
+        justify-content: center;
+        align-items: center;
+                }
+                .full{
+                    padding: 20px;
+                    height: 40%;
+                    width: 40%;
+                    text-shadow: 3px 2px 3px whitesmoke;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    background-color:burlywood;
+                    border: 4px solid lightblue;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    box-shadow: 6px 9px  #404142 ;
+                }
+                a{
+                    color: black;
+                    text-decoration: none;
+                    background-color:lightblue ;
+                    border-radius: 5px;
+                    text-shadow: 2px 2px  whitesmoke;
+                    font-size: 17px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    padding: 10px;
+                    border:2px solid whitesmoke;
+                    box-shadow: 7px 7px 4px #404142 ;
+                }
+                a:hover{
+                 background-color:#07aae0;
+                }
+                a:visited {
+                   color:#07aa;
+                  }
+    </style>
+</head>
+<body>
+    
+    <div class="full">
+        <h1>CURD OPERATION</h1>
+        <div class="ADD`">
+            <a href="/add">ADD USER</a>
+        </div>
+        <div class="READ">
+        <a href="/read">SHOW USER</a>
+        </div>
+        <div class="update">
+            <a href="/update">UPDATE</a>
+        </div>
+    <div class="delete">
+        <a href="/delete">Delete</a>
+    </div>
+    </div>
+</body>
+</html>
